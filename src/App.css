@@ -6,6 +6,10 @@ html, body {
   font-family: "Roboto", "Helvetica", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .social-btn {
   background-position: center;
   background-size: contain;
