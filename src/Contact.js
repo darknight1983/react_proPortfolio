@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import './Contact.css'
+import './Contact.css';
+import cityDallas from './images/Dallas_Tx.jpg';
+
+console.log(cityDallas)
 
 
 class Contact extends Component {

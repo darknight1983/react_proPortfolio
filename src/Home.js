@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Home.css'
+import homeImage from './images/about_me.jpg';
 
 class Home extends Component {
   constructor() {
@@ -31,7 +32,7 @@ class Home extends Component {
             <h2 className="mdl-card__title-text">Welcome</h2>
           </div>
           <div className="mdl-card__media">
-            <img className="article-image" src="assets/images/about_me.jpg" border="0" alt=""/>
+            <img className="article-image" src={homeImage} border="0" alt=""/>
           </div>
           <div className="mdl-grid portfolio-copy">
             <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Introduction</h3>

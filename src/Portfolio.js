@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import ProjectCard from './Project-card.js';
+import liriScreenShot from './images/liri_node_app.png';
+import BootStrapPortfolio from './images/Bootstrap_Portfolio.png';
+import ReactYoutubeShot from './images/React_Youtube.png';
 
 
 
@@ -9,7 +12,7 @@ class Portfolio extends Component {
 
     this.state = {
       projects: [{
-        screenShot: 'assets/images/liri_node_app.png',
+        screenShot: liriScreenShot,
         alt: 'liri_app_screen_shot',
         link: 'https://github.com/darknight1983/liri_node_app',
         description: `LIRI is like iPhone's SIRI. However, while SIRI is a Speech
@@ -17,7 +20,7 @@ class Portfolio extends Component {
                  Interpretation and Recognition Interface. LIRI will be a command
                  line node app that takes in parameters and gives you back data.`
       },{
-        screenShot: 'assets/images/Bootstrap_Portfolio.png',
+        screenShot: BootStrapPortfolio,
         alt: 'Bootstrap-Portfolio',
         link: 'https://github.com/darknight1983/bootstrap_portfolio',
         description: `A simple portfoilo website built with HTML, CSS, and the very
@@ -25,7 +28,7 @@ class Portfolio extends Component {
                   Bootstrap to create a responsive, user-friendly layout on any
                   screen size.`
       },{
-         screenShot: 'assets/images/React_Youtube.png',
+         screenShot: ReactYoutubeShot,
          alt: 'Youtube Clone built with React',
          link: 'https://github.com/darknight1983/React_Youtube_searchSite',
          description: `A basic Youtube application built with React and other Node
