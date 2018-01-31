@@ -1,0 +1,17 @@
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+img.article-image {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}

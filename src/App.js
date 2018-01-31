@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Home from './Home.js'
 import Portfolio from './Portfolio.js';
+import Contact from './Contact.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -32,7 +33,7 @@ class App extends Component {
             </div>
             <main className="mdl-layout__content">
 
-                <Portfolio />
+                <Contact />
 
 
                 <footer className="mdl-mini-footer mdl-color--grey-900">
