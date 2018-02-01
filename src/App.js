@@ -45,13 +45,13 @@ class App extends Component {
 
                   <footer className="mdl-mini-footer mdl-color--grey-900">
                     <div className="mdl-mini-footer__middle-section">
-                      <button className="mdl-mini-footer--social-btn social-btn social-btn__twitter" id="twitter">
+                      <button onClick={() => {window.location.href = 'https://twitter.com/CoodyMac'}} className="mdl-mini-footer--social-btn social-btn social-btn__twitter" id="twitter">
                         <span className="visuallyhidden">Twitter</span>
                       </button>
-                      <button className="mdl-mini-footer--social-btn social-btn social-btn__facebook" id="facebook">
+                      <button onClick={() => {window.location.href = 'https://www.facebook.com/jacolby.green'}} className="mdl-mini-footer--social-btn social-btn social-btn__facebook" id="facebook">
                         <span className="visuallyhidden">Facebook</span>
                       </button>
-                      <button className="mdl-mini-footer--social-btn social-btn social-btn__linkedin" id="linkedin">
+                      <button onClick={() => {window.location.href = 'https://www.linkedin.com/in/jacolby-green-308b701b'}} className="mdl-mini-footer--social-btn social-btn social-btn__linkedin" id="linkedin">
                         <span className="visuallyhidden">Linkedin</span>
                       </button>
                     </div>
