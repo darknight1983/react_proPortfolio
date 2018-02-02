@@ -12,6 +12,8 @@ class Portfolio extends Component {
 
     this.state = {
       projects: [{
+        key: 1,
+        title: '"LIRI" Node App',
         screenShot: liriScreenShot,
         alt: 'liri_app_screen_shot',
         link: 'https://github.com/darknight1983/liri_node_app',
@@ -20,6 +22,8 @@ class Portfolio extends Component {
                  Interpretation and Recognition Interface. LIRI will be a command
                  line node app that takes in parameters and gives you back data.`
       },{
+        key: 2,
+        title: 'BootStrap Portfolio',
         screenShot: BootStrapPortfolio,
         alt: 'Bootstrap-Portfolio',
         link: 'https://github.com/darknight1983/bootstrap_portfolio',
@@ -28,6 +32,8 @@ class Portfolio extends Component {
                   Bootstrap to create a responsive, user-friendly layout on any
                   screen size.`
       },{
+        key: 3,
+        title: 'React-Youtube',
          screenShot: ReactYoutubeShot,
          alt: 'Youtube Clone built with React',
          link: 'https://github.com/darknight1983/React_Youtube_searchSite',
@@ -44,7 +50,9 @@ class Portfolio extends Component {
           <ProjectCard screenShot={project.screenShot}
                         link={project.link}
                         alt={project.alt}
-                        description={project.description}/>
+                        description={project.description}
+                        title={project.title}
+                        key={project.key}/>
         )}
       </div>
     )

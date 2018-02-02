@@ -16,7 +16,7 @@ class ProjectCard extends Component {
           <img src={this.props.screenShot} alt={this.props.alt}/>
         </div>
         <div className="project-name mdl-card__title mdl-color--primary">
-          <h2 className="mdl-card__title-text"><a href={this.props.link}>Liri_Node_App</a></h2>
+          <h2 className="mdl-card__title-text"><a href={this.props.link}>{this.props.title}</a></h2>
         </div>
         <div className="mdl-card__supporting-text">
           <p>
