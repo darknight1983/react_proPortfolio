@@ -3,6 +3,7 @@ import ProjectCard from './Project-card.js';
 import liriScreenShot from './images/liri_node_app.png';
 import BootStrapPortfolio from './images/Bootstrap_Portfolio.png';
 import ReactYoutubeShot from './images/React_Youtube.png';
+import EatABurger from './images/eatABurger.png';
 
 
 
@@ -40,6 +41,15 @@ class Portfolio extends Component {
          description: `A basic Youtube application built with React and other Node
                    modules. This application demonstrates the power of
                    React's library when building UI components that are reusable.`
+       },{
+         key: 4,
+         title: 'Eat-A-Burger',
+         screenShot: EatABurger,
+         alt: 'Eat-A-Burger',
+         link: 'https://github.com/darknight1983/burger',
+         description: `A Node, Express, Handlebars, and MySQL burger
+                       app that lets users input the names of burgers they'd
+                       like to eat... and then devour them!`
        }]
     }
   }

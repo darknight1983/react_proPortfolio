@@ -10,11 +10,11 @@ class Home extends Component {
             introduction: `I fell in love with technology after the entrance of the
                           iPhone in 2007. I had already had a general interest with tech prior
                           to the iPhone’s release but after witnessing what could be done with
-                          tech, I was hooked! That led me to work at companies like
-                          AT&amp;T and Mosaic to quench my thirst for all things
+                          technology and software, I was hooked! That led me to work at companies like
+                          AT&T and Mosaic to quench my thirst for all things
                           tech. That passion eventually lead me on a journey to learn
-                          to learn how to code. I recently finished a 3 month
-                          bootcamp in Web Development and I'm now looking to build
+                          how to code. I now feel confident enough to take my skills
+                          to the next level and I'm now also looking to build
                           robust applications with a fast-paced and growing company.`,
             currently: `I am currently attending SMU's Full Stack Flex Web Development bootcamp
                    which is a 6 month program aimed at preparing students to be front-end and
