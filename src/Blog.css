@@ -1,0 +1,14 @@
+.blog-grid {
+  max-width: 960px;
+  margin: 200px auto;
+}
+
+
+
+/************** BlogPost1 Styles *************/
+
+.blog_1 {
+  background: url('./images/coffeeshop.jpg') center/cover;
+  height: 167px;
+  color: #FFF;
+}

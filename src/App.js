@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Home from './Home.js'
+import Blog from './Blog.js'
 import Portfolio from './Portfolio.js';
 import Contact from './Contact.js';
 import logo from './logo.svg';
@@ -18,6 +19,7 @@ class App extends Component {
                   <div className="mdl-layout-spacer"></div>
                   <nav className="mdl-navigation mdl-layout--large-screen-only">
                     <Link to='/'><a className="mdl-navigation__link" href="index.html">Home</a></Link>
+                    <Link to="/blog"><a className="mdl-navigation__link" href="blog.html">Blog</a></Link>
                     <Link to='/portfolio'><a className="mdl-navigation__link" href="portfolio.html">Portfolio</a></Link>
                     <Link to='/contact'><a className="mdl-navigation__link" href="contact.html">Contact</a></Link>
                     <a className="mdl-navigation__link" href="https://github.com/darknight1983">Github</a>
@@ -28,6 +30,7 @@ class App extends Component {
                 <span className="mdl-layout-title">Jacolby Green</span>
                 <nav className="mdl-navigation">
                   <Link to='/'><a className="mdl-navigation__link" href="index.html">Home</a></Link>
+                  <Link to="/blog"><a className="mdl-navigation__link" href="blog.html">Blog</a></Link>
                   <Link to='/portfolio'><a className="mdl-navigation__link" href="portfolio.html">Portfolio</a></Link>
                   <Link to='/contact'><a className="mdl-navigation__link" href="contact.html">Contact</a></Link>
                   <a className="mdl-navigation__link" href="https://github.com/darknight1983">Github</a>
@@ -37,6 +40,7 @@ class App extends Component {
 
 
                     <Route exact path='/' component={Home}/>
+                    <Route path='/blog' component={Blog}/>
                     <Route path='/portfolio' component={Portfolio}/>
                     <Route path='/contact' component={Contact}/>
 
