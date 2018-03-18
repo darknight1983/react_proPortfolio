@@ -1,6 +1,6 @@
 .blog-grid {
   max-width: 960px;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 
 
@@ -9,6 +9,18 @@
 
 .blog_1 {
   background: url('./images/coffeeshop.jpg') center/cover;
-  height: 167px;
+  height: 267px;
+  color: #FFF;
+}
+
+.blog_2 {
+  background: url('./images/passion.jpg') center/cover;
+  height: 267px;
+  color: #FFF;
+}
+
+.blog_3 {
+  background: url('./images/classroom.jpg') center/cover;
+  height: 267px;
   color: #FFF;
 }

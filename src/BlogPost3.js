@@ -4,7 +4,7 @@ class BlogPost3 extends Component {
   render() {
     return (
         <div className="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
-          <div className="mdl-card__title">
+          <div className="blog_3 mdl-card__title">
            {/* The title of the post should be passed in as a prop.*/}
             <h2 className="mdl-card__title-text">Third Blog Post</h2>
           </div>
