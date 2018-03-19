@@ -4,6 +4,9 @@ import Home from './Home.js'
 import Blog from './Blog.js'
 import Portfolio from './Portfolio.js';
 import Contact from './Contact.js';
+import BlogContent1 from './blogContent1.js';
+import BlogContent2 from './blogContent2.js';
+import BlogContent3 from './blogContent3.js';
 import logo from './logo.svg';
 import './App.css';
 
@@ -11,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="mdl-layout mdl-js-layout">
+        <div className="main-layout mdl-layout mdl-js-layout">
             <header className="demo-layout-transparent mdl-color--primary">
                 <div className="mdl-layout-icon"></div>
                 <div className="mdl-layout__header-row">
@@ -43,6 +46,9 @@ class App extends Component {
                     <Route path='/blog' component={Blog}/>
                     <Route path='/portfolio' component={Portfolio}/>
                     <Route path='/contact' component={Contact}/>
+                    <Route path='/blogContent1' component={BlogContent1}/>
+                    <Route path='/blogContent2' component={BlogContent2}/>
+                    <Route path='/blogContent3' component={BlogContent3}/>
 
 
 

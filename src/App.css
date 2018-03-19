@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+.main-layout {
+  background-color: rgba(227, 232, 235, 1.0);
+}
+
 .social-btn {
   background-position: center;
   background-size: contain;
