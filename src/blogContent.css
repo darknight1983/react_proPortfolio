@@ -1,0 +1,13 @@
+.blog-card {
+  margin: 20px auto;
+
+}
+
+.blog-title h2 {
+  font-weight: bold;
+}
+
+.blog-text {
+  padding: 20px;
+  line-height: 1.9;
+}

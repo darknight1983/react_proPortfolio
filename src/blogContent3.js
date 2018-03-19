@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 class BlogContent3 extends Component {
   render() {
     return (
-      <div className="mdl-cell mdl-cell--8-col mdl-card mdl-shadow--4dp">
-        <div clasName="mdl-card__title">
+      <div className="blog-content mdl-cell mdl-cell--8-col mdl-card mdl-shadow--4dp">
+        <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">
            Blog Post 3
           </h2>
