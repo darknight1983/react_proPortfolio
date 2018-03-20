@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ProjectCard from './Project-card.js';
 import liriScreenShot from './images/liri_node_app.png';
-import BootStrapPortfolio from './images/Bootstrap_Portfolio.png';
+import BamazonScreenShot from './images/bamazon.png';
 import ReactYoutubeShot from './images/React_Youtube.png';
 import EatABurger from './images/eatABurger.png';
 
@@ -24,14 +24,14 @@ class Portfolio extends Component {
                  line node app that takes in parameters and gives you back data.`
       },{
         key: 2,
-        title: 'BootStrap Portfolio',
-        screenShot: BootStrapPortfolio,
-        alt: 'Bootstrap-Portfolio',
-        link: 'https://github.com/darknight1983/bootstrap_portfolio',
-        description: `A simple portfoilo website built with HTML, CSS, and the very
-                  powerful and flexible framework Bootstrap. The website utilizes
-                  Bootstrap to create a responsive, user-friendly layout on any
-                  screen size.`
+        title: 'BAMAZON',
+        screenShot: BamazonScreenShot,
+        alt: 'Bamazon_app',
+        link: 'https://github.com/darknight1983/bamazon_app',
+        description: `A Node.js & MySQL digital storefront. This is a command
+                      line Node app that mimics a beloved online retailer. The
+                      packages used to build this application were Inquirer,
+                      MySQL, and Cli-Table`
       },{
         key: 3,
         title: 'React-Youtube',
