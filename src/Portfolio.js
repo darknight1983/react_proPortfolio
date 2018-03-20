@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ProjectCard from './Project-card.js';
 import liriScreenShot from './images/liri_node_app.png';
 import BamazonScreenShot from './images/bamazon.png';
-import ReactYoutubeShot from './images/React_Youtube.png';
+import ReactPortfolioShot from './images/react-mdl-portfolio.png';
 import EatABurger from './images/eatABurger.png';
 
 
@@ -34,13 +34,13 @@ class Portfolio extends Component {
                       MySQL, and Cli-Table`
       },{
         key: 3,
-        title: 'React-Youtube',
-         screenShot: ReactYoutubeShot,
-         alt: 'Youtube Clone built with React',
-         link: 'https://github.com/darknight1983/React_Youtube_searchSite',
-         description: `A basic Youtube application built with React and other Node
-                   modules. This application demonstrates the power of
-                   React's library when building UI components that are reusable.`
+        title: 'React Portfolio',
+         screenShot: ReactPortfolioShot,
+         alt: 'My Portfolio Site',
+         link: 'https://github.com/darknight1983/react_proPortfolio.git',
+         description: `My current Portfolio site built with Create-React-App.
+         I really do like Material Design Lite so I used a few components from
+         that framework to build a lite and responsive portfolio.`
        },{
          key: 4,
          title: 'Eat-A-Burger',
